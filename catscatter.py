@@ -66,3 +66,5 @@ def catscatter(df,colx,coly,cols,color=['grey','black'],ratio=10,font='Helvetica
     # Save if wanted
     if save:
         plt.savefig(save_name+'.png')
+    
+    return plt
